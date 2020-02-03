@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """test module for colab
 """
-import sqlalchemy as sqlalc
+from requests import Request, Session
 
 # meta for discovery
 # discovery by id: GET http://api.us.socrata.com/api/catalog/v1?ids=ydr8-5enu
